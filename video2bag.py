@@ -39,7 +39,7 @@ def CreateVideoBag(video_path, bag_name):
     bag.close()
 
 if __name__ == "__main__":
-    if len( sys.argv ) == 3:
+    if len(sys.argv) == 3:
         CreateVideoBag(*sys.argv[1:])
     else:
-        print( "Usage: video2bag video_path bag_name")
+        print "Usage: video2bag video_path bag_name"
